@@ -1,0 +1,46 @@
+git status // verifica o status dos arquivos
+git add "nome-do-arquivo" // adiciona um arquivo
+git add . // adiciona todos os arquivos
+git commit -m "mensagem" // cria versão do código
+git remote add origin https://github.com/... // altera a URL de destino
+git push --set-upstream origin master // seta a branch 'master' e envia os arquivos para ela
+git init // inicializa um novo repositório
+
+1 git add . 
+2 git commit -m "mensagem"
+3 git push
+
+git reflog // ve o historico de versões
+git reset --hard id-da-versao // volta à versão desejada do código
+
+branches: caminhos diferentes que o desenvolvimento pode seguir
+podem ser criadas várias branches para o mesmo projeto, uma principal apenas com codigos prontos e 
+secundárias com o passo a passo do desenvolvimento 
+
+git branch // ve as branches criadas(mostra em verde a branch atual)
+git branch nome-da-branch // cria uma nova branch
+git checkout nome-da-branch // altera a branch que está sendo trabalhada
+
+merge: união entre duas branches 
+
+deve-se entrar na branch que irá receber as atualizações usando o git checkout
+por exemplo, quero puxar da branch staging para a master
+git checkout master
+git merge staging
+
+git pull // traz as atualizações do git para a máquina
+
+para criar uma branch com base em outra: 
+git checkout -b nova-branch branch-antiga // cria uma nova branch igual a antiga
+
+CRIAR NOVO REPOSITORIO E COLOCAR ESSE ARQUIVO DENTRO USANDO COMANDOS PARA TESTAR OS CONHECIMENTOS
+
+git ignore: caso você não queira adicionar x parte do projeto ao git
+touch .gitignore // cria o arquivo .gitignore
+dentro dele, colocar quais arquivos/pastas não queremos que sejam adicionados ao git
+pastas: nomedapasta/
+arquivos: arquivo.js por exemplo
+
+
+
+
