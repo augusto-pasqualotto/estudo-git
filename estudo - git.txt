@@ -2,7 +2,7 @@ git status // verifica o status dos arquivos
 git add "nome-do-arquivo" // adiciona um arquivo
 git add . // adiciona todos os arquivos
 git commit -m "mensagem" // cria versão do código
-git remote add origin https://github.com/... // altera a URL de destino
+git remote add origin https://github.com/... // altera a URL de destino do repositório
 git push --set-upstream origin master // seta a branch 'master' e envia os arquivos para ela
 git init // inicializa um novo repositório
 
@@ -13,7 +13,7 @@ git init // inicializa um novo repositório
 git reflog // ve o historico de versões
 git reset --hard id-da-versao // volta à versão desejada do código
 
-branches: caminhos diferentes que o desenvolvimento pode seguir
+branches: caminhos diferentes que o desenvolvimento pode seguir 
 podem ser criadas várias branches para o mesmo projeto, uma principal apenas com codigos prontos e 
 secundárias com o passo a passo do desenvolvimento 
 
@@ -32,8 +32,6 @@ git pull // traz as atualizações do git para a máquina
 
 para criar uma branch com base em outra: 
 git checkout -b nova-branch branch-antiga // cria uma nova branch igual a antiga
-
-CRIAR NOVO REPOSITORIO E COLOCAR ESSE ARQUIVO DENTRO USANDO COMANDOS PARA TESTAR OS CONHECIMENTOS
 
 git ignore: caso você não queira adicionar x parte do projeto ao git
 touch .gitignore // cria o arquivo .gitignore
