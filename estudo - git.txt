@@ -48,6 +48,8 @@ dentro dele, colocar quais arquivos/pastas não queremos que sejam adicionados a
 pastas: nomedapasta/
 arquivos: arquivo.js por exemplo
 
+Para puxar do git para meu PC do zero
+git clone https://github.com/...
 
 
 
