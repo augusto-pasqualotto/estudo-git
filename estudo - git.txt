@@ -6,9 +6,14 @@ git remote add origin https://github.com/... // altera a URL de destino do repos
 git push --set-upstream origin master // seta a branch 'master' e envia os arquivos para ela
 git init // inicializa um novo repositório
 
-1 git add . 
-2 git commit -m "mensagem"
-3 git push
+Para enviar arquivos a um repositório novo
+1 git init
+2 git remote add origin https://github.com/...
+3 git push --set-upstream origin master
+4 git status
+5 git add . 
+6 git commit -m "mensagem"
+7 git push
 
 git reflog // ve o historico de versões
 git reset --hard id-da-versao // volta à versão desejada do código
