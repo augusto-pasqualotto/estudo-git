@@ -51,6 +51,8 @@ arquivos: arquivo.js por exemplo
 Para puxar do git para meu PC do zero
 git clone https://github.com/...
 
-
+para clonar uma branch espcífica para minha máquina
+git clone https://github.com/...
+git checkout nome-da-branch
 
 
