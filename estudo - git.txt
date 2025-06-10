@@ -1,4 +1,8 @@
- git status // verifica o status dos arquivos
+Para configurar numa máquina nova
+git config --global user.name "nome"
+git config --global user.email "email"
+
+git status // verifica o status dos arquivos
 git add "nome-do-arquivo" // adiciona um arquivo
 git add . // adiciona todos os arquivos
 git commit -m "mensagem" // cria versão do código
